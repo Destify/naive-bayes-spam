@@ -1,8 +1,5 @@
 # Spam Filtering based on Naive Bayes Classication
 
-We will implement a simple machine learning algorithm to classify emails (Spam or Not Spam aka Ham) using Scikit-learn. We are going to implement a Spam filtering classifier based on Multinomial Naive Bayes Algorithm
-
-
 ## Prerequisites
 
 To follow this doc you need to have the basic ideas of the following
@@ -16,11 +13,6 @@ We are going to solve this spam filtering problem in three different sections
 * Train the classifier
 * Test the classifier for its accuracy
 * Classify a new email with our trained classifer
-
-## Prepare the data
-
-Download the publicly available Lingspam dataset (http://www.aueb.gr/users/ion/data/lingspam_public.tar.gz).
-We are going to use the `bare > part1` from the downloaded dataset as the trainig data and `bare > part2` as the test data. Create two new directories, rename them - train_data and test_data. Now copy all the files from `bare > part1` to train_data and copy some random files from `base > part2` to test_data.
 
 ```
 import os
